@@ -13,7 +13,3 @@
         <button class="bg-black text-white p-1 w-28 h-10 rounded" on:click|once={handleClick}>Accept All</button>
     </div>
 {/if}
-
-<style>
-
-</style>
