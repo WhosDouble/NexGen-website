@@ -1,12 +1,12 @@
 <header>
     <nav>
-        <div class="w-[200px]"><a href="#section1"><img class="cursor-pointer mr-20 pl-0 z-50" src="/src/assets/Logo.png" alt="logo"></a></div>
+        <div class="w-[200px]"><a href="#section1"><img class="cursor-pointer mr-20 pl-0 z-50" src="/src/assets/LogoV2.png" alt="logo"></a></div>
         <div class="flex justify-center text-center">
             <h3 class="">Platform</h3>
             <h3>Industries</h3>
             <h3>Developers</h3>
             <h3>Intergrations</h3>
-            <a href="#">Resources</a>
+            <h3>Resources</h3>
         </div>
         <div class="flex justify-end w-[200px]">
             <button class="bg-black rounded text-[#eee]">LOGIN</button>
@@ -41,7 +41,7 @@
         padding: 0;
     }
     img{
-        width: 70px;
+        width: 200px;
     }
     button{
         width: 120px;

@@ -3,22 +3,22 @@
         {
             number: "01",
             header: "Configure Your Builder",
-            para: "Set up your integration environment with our intuitive configuration tools, ensuring a tailored approach to meet your specific needs."
+            para: "Set up your integration environment with our intuitive configuration tools."
         },
         {
             number: "02",
             header: "Connect Critical Apps",
-            para: "Quickly link your customers' most essential applications using our rapid-integration builder for seamless data flow."
+            para: "Quickly link your customers' most essential applications using our rapid-integration."
         },
         {
             number: "03",
             header: "Develop Programmatically",
-            para: "Use our Connectivity APIs to create custom integrations programmatically, giving you full control over your integration solutions."
+            para: "Use our Connectivity APIs to create custom integrations programmatically."
         },
         {
             number: "04",
-            header: "Deploy and Optimize",
-            para: " Deploy your integrations effortlessly and continuously optimize for performance and reliability to enhance user satisfaction."
+            header: "Deploy and Optimize Performance",
+            para: " Deploy your integrations effortlessly and continuously optimized for performance."
         },
     ]
 </script>
