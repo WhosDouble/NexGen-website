@@ -1,23 +1,26 @@
 <header>
     <nav>
-        <a href="#section1"><img class="cursor-pointer mr-20 pl-0 z-50" src="/src/assets/myLogo.png" alt="logo"></a>
-        <div>
+        <div class="w-[200px]"><a href="#section1"><img class="cursor-pointer mr-20 pl-0 z-50" src="/src/assets/Logo.png" alt="logo"></a></div>
+        <div class="flex justify-center text-center">
             <h3 class="">Platform</h3>
             <h3>Industries</h3>
             <h3>Developers</h3>
             <h3>Intergrations</h3>
             <a href="#">Resources</a>
         </div>
-        <button class="bg-black rounded text-[#eee]">LOGIN</button>
-        <button class="bg-black rounded text-[#eee]">BOOK</button>
+        <div class="flex justify-end w-[200px]">
+            <button class="bg-black rounded text-[#eee]">LOGIN</button>
+            <button class="bg-black rounded text-[#eee]">BOOK</button>
+        </div>
     </nav>
 </header>
 
 <style>
-    @import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
     h3, a{
         font-weight: 400;
-        font-family: Poppins, sans-serif;
+        font-family: Kanit, sans-serif;
+        letter-spacing: 1px;
     }
     header{
         backdrop-filter: blur(10px);
@@ -25,7 +28,7 @@
         position: fixed;
         width: 100%;
         padding-right: 40px;
-        padding-left: 0;
+        padding-left: 40px;
         margin: 0;
         padding-top: 0;
     }
@@ -38,17 +41,17 @@
         padding: 0;
     }
     img{
-        width: 50px;
+        width: 70px;
     }
     button{
         width: 120px;
         height: 30px;
         padding: 2px;
+        font-family: Kanit;
     }
     div{
         display: flex;
         width: 100%;
-        justify-content: center;
         gap: 20px;
     }
 </style>
