@@ -1,4 +1,4 @@
-<header>
+<header class="z-[99]">
     <nav>
         <div class="w-[200px]"><a href="#section1"><img src="/images/logoV2.png" alt=""></a></div>
         <div class="flex justify-center text-center">
