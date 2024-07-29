@@ -3,7 +3,7 @@
 </script>
 
 <div>
-    <div class="w-full flex justify-around p-14">
+    <div class="main w-full flex justify-around p-14">
         <h2 class="text-[rgba(5,5,5,0.8)] text-[55px]">Start for free <span class="text-black">Upgrade to scale<span class="flash">_</span></span></h2>
         <h3 class="text-[20px]">No credit card required Cancel anytime</h3>
     </div>
@@ -29,6 +29,28 @@
         }
         100%{
             opacity: 0;
+        }
+    }
+    @media(max-width:946px){
+        .main{
+            flex-direction: column;
+        }
+        h2{
+            padding: 5px;
+        }
+    }
+    @media(max-width:430px){
+        .main{
+            padding: 0;
+            padding-top: 5px;
+            padding-left: 40px;
+        }
+        h2{
+            font-size: 35px;
+            padding: 0;
+        }
+        h3{
+            font-size: 15px;
         }
     }
 </style>

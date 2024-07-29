@@ -2,18 +2,18 @@
 
 </script>
 
-<div class="flex justify-center gap-5">
-    <div class="w-[350px] h-[350px] relative overflow-hidden  text-white text-left pb-0 pr-0 p-6 bg-black group hover:text-[#F05941] ">
+<div class="flex justify-center z-[999] gap-5">
+    <div class="w-[350px] h-[350px] z-[999] relative overflow-hidden  text-white text-left pb-0 pr-0 p-6 bg-black group hover:text-[#F05941] ">
         <h3>BUILD<span class="group-hover:animate-pulse">_</span></h3>
         <img id="img1" src="/images/img1.png" alt="build illustration">
     </div>
-    <div class="w-[350px] h-[350px] relative overflow-hidden group text-white text-left p-6 bg-black hover:text-[#F05941] ">
+    <div class="w-[350px] h-[350px]  relative overflow-hidden group text-white text-left p-6 bg-black hover:text-[#F05941] ">
         <h3>SHIP<span class="group-hover:animate-pulse">_</span></h3>
         <img id="img2" src="/images/img2.png" alt="build illustration">
     </div>
 </div>
-<div class="flex justify-center gap-5 mt-5">
-    <div class="w-[721px] h-[350px] group relative overflow-hidden text-white text-left p-6 bg-black hover:text-[#F05941]">
+<div class="flex justify-center z-[999] gap-5 mt-5">
+    <div class="w-[721px] h-[350px] z-50 group relative overflow-hidden text-white text-left p-6 bg-black hover:text-[#F05941]">
         <h3>SCALE<span class="group-hover:animate-pulse">_</span></h3>
         <img id="img3" src="/images/img3.png" alt="build illustration">
     </div>
@@ -39,6 +39,7 @@
      }
      #img3{
         position: absolute;
+        bottom: 0;
      }
      
 </style>

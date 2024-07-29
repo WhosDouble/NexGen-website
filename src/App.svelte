@@ -7,7 +7,6 @@
   import Section3 from "./lib/section3.svelte";
   import Section4 from "./lib/section4.svelte";
   import Footer from "./lib/footer.svelte";
-  import { spring } from "svelte/motion"
 </script>
 
 <body>

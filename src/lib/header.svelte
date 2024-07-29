@@ -1,14 +1,14 @@
-<header class="z-[99]">
+<header class="z-[1000]">
     <nav>
         <div class="w-[200px]"><a href="#section1"><img src="/images/logoV2.png" alt=""></a></div>
         <div class="flex justify-center text-center">
-            <h3 class="">Platform</h3>
+            <h3>Platform</h3>
             <h3>Industries</h3>
             <h3>Developers</h3>
             <h3>Intergrations</h3>
             <h3>Resources</h3>
         </div>
-        <div class="flex justify-end w-[200px]">
+        <div class="flex justify-end w-full max-[200px]">
             <button class="bg-black rounded text-[#eee]">LOGIN</button>
             <button class="bg-black rounded text-[#eee]">BOOK</button>
         </div>
@@ -41,13 +41,16 @@
         padding: 0;
     }
     img{
-        width: 200px;
+        width: 100%;
+        max-width: 200px;
+        min-width: 110px;
     }
     button{
-        width: 120px;
+        width: 100%;
         height: 30px;
+        max-width: 120px;
         padding: 2px;
-        font-family: Kanit;
+        font-family: Kanit, sans-serif;
     }
     div{
         display: flex;

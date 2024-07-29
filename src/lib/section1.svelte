@@ -3,8 +3,8 @@
 </script>
 
 <section class="flex flex-col text-center w-full" id="section1">
-    <div class="flex text-center justify-center w-full text-wrap pr-20 mt-20 mb-[30px] text-[50px]">
-        <div class="max-w-[1100px]">
+    <div class="main flex text-center justify-center w-full text-wrap pr-20 mt-20 mb-[30px] text-[50px]">
+        <div class="max-w-[1000px]">
             <h1>BUILD ROBUST <span class="text-[#F05941]"> PRODUCT INTERGRATIONS</span> FOR YOUR USERS</h1>
         </div>
     </div>
@@ -52,5 +52,16 @@
     }
     section{
         padding-bottom: 30px;
+    }
+
+    @media(max-width:462px) {
+        .main{
+            font-size: 30px;
+            text-align: center;
+            padding: 0;
+        }
+        h1{
+            line-height: 29px; 
+        }
     }
 </style>

@@ -3,8 +3,8 @@
 </script>
 
 <footer class="bg-black w-full">
-    <div class="flex pb-10 p-20">
-        <div class="flex flex-col">
+    <div class="main flex pb-10 p-20">
+        <div class="flex flex-col pb-10">
             <h2 class="text-white pb-5">Ready to transfrom Your Marketing Insights?</h2>
             <button class="bg-white w-full max-w-36 p-2">Book a Demo</button>
         </div>
@@ -49,5 +49,14 @@
     button{
         font-family: Kanit;
         border-radius: 5px;
+    }
+    
+    @media(max-width:959px){
+        .main{
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        justify-content: center;
+    }
     }
 </style>

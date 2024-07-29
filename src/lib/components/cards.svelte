@@ -23,15 +23,16 @@
     ]
 </script>
 
-<div class="flex gap-5 justify-start">
+<div class="main flex gap-5 justify-start">
     {#each infos as info}
-        <div class="w-full max-w-96 bg-[#1b1b1b] rounded-2xl p-10 mb-7 group">
+        <div class="second w-full max-w-[384px] bg-[#1b1b1b] rounded-2xl p-10 mb-7 group">
             <p class="text-[rgb(255,255,255,0.6)] group-hover:text-[#fff]">{info.number}</p>
             <h2 class="text-white text-[25px] pt-5 group-hover:text-[#F05941]">{info.header}</h2>
             <p id="last-p" class="text-[rgb(255,255,255,0.4)] pt-56">{info.para}</p>
         </div>
     {/each}
 </div>
+
 
 <style>
    @import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
