@@ -5,7 +5,6 @@
 <div class="flex justify-center gap-5">
     <div class="w-[350px] h-[350px] text-white text-left p-6 bg-black group hover:text-[#F05941] ">
         BUILD<span class="group-hover:animate-pulse">_</span>
-        <img class="z-10" src="/src/assets/meteehee.jpg" alt="its me">
     </div>
     <div class="w-[350px] h-[350px] group text-white text-left p-6 bg-black hover:text-[#F05941] ">
         SHIP<span class="group-hover:animate-pulse">_</span>
@@ -22,9 +21,5 @@
      div{
         font-family: JETBRAINS MONO, monospace;
      }
-     img{
-        object-fit: cover;
-        height: 300px;
-        width: 300px;
-     }
+     
 </style>
