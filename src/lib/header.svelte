@@ -1,6 +1,6 @@
 <header>
     <nav>
-        <img class="cursor-pointer z-50" src="/src/assets/logoV2.png" alt="websites logo">
+        <div class="w-[200px]"><a href="#section1"><img class="cursor-pointer z-50" src="/src/assets/logoV2.png" alt="websites logo"></a></div>
         <div class="flex justify-center text-center">
             <h3 class="">Platform</h3>
             <h3>Industries</h3>

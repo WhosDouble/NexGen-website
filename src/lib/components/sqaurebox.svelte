@@ -5,6 +5,7 @@
 <div class="flex justify-center gap-5">
     <div class="w-[350px] h-[350px] text-white text-left p-6 bg-black group hover:text-[#F05941] ">
         BUILD<span class="group-hover:animate-pulse">_</span>
+        <img class="z-10" src="/src/assets/meteehee.jpg" alt="its me">
     </div>
     <div class="w-[350px] h-[350px] group text-white text-left p-6 bg-black hover:text-[#F05941] ">
         SHIP<span class="group-hover:animate-pulse">_</span>
@@ -20,5 +21,10 @@
      @import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
      div{
         font-family: JETBRAINS MONO, monospace;
+     }
+     img{
+        object-fit: cover;
+        height: 300px;
+        width: 300px;
      }
 </style>
