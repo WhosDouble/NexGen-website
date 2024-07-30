@@ -5,7 +5,7 @@
 <section class="flex flex-col justify-center w-full bg-black">
     <p id="section2" class="text-[#F05941] text-center pb-10 pt-20">PLATFORM</p>
     <div class="w-full flex justify-center">
-        <div class="w-full max-w-[400px] mb-10"><h2 class="text-white text-[50px]">BUILD INTERGRATIONS YOUR WAY</h2></div>
+        <div class="w-full max-w-[400px] mb-10"><h2 class="text-white text-[50px]">BUILD INTEGRATIONS YOUR WAY</h2></div>
     </div>
     <div class="w-full p-5 flex justify-center">
         <div class="w-full max-w-[700px] text-[20px]"><p class="text-[rgb(255,255,255,0.5)] mb-12">Utilize our rapid-integration builder to swiftly connect with your customers' essential applications or develop integrations programmatically using our Connectivity APIs.</p></div>

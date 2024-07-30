@@ -8,11 +8,10 @@
     <nav>
         <div class="logo w-[200px]"><a href="#section1"><img src="/images/logoV2.png" alt=""></a></div>
         <div class="remove flex justify-center text-center">
-            <h3>Platform</h3>
-            <h3>Industries</h3>
-            <h3>Developers</h3>
-            <h3>Intergrations</h3>
-            <h3>Resources</h3>
+            <a href="#section2"><h3>Platform</h3></a>
+            <a href="#section2"><h3>Industries</h3></a>
+            <a href="#section3"><h3>Developers</h3></a>
+            <a href="#section4"><h3>Integrations</h3></a>
         </div>
         <div class="add flex justify-center items-center ">
             <label for="">
@@ -20,15 +19,15 @@
                 Home
             </label>
             <label for="">
-                <Factory/>
+                <a href="#section2"><Factory/></a>
                 Industry
             </label>
             <label for="">
-                <Code/>
+                <a href="#section3"><Code/></a>
                 Develop
             </label>
             <label for="">
-                <Blocks/>
+                <a href="#section4"><Blocks/></a>
                 Integrate
             </label>
         </div>

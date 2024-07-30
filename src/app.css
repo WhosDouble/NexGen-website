@@ -20,3 +20,12 @@ body {
   background: #f05941;
   cursor: pointer;
 }
+::selection {
+  color: #eee;
+  background: #f05941;
+}
+::-moz-selection {
+  /* Code for Firefox */
+  color: #eee;
+  background: #f05941;
+}

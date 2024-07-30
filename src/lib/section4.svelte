@@ -3,7 +3,7 @@
 </script>
 
 <div>
-    <div class="main w-full flex justify-around p-14">
+    <div id="section4" class="main w-full flex justify-around p-14">
         <h2 class="text-[rgba(5,5,5,0.8)] text-[55px]">Start for free <span class="text-black">Upgrade to scale<span class="flash">_</span></span></h2>
         <h3 class="text-[20px]">No credit card required Cancel anytime</h3>
     </div>
@@ -18,7 +18,7 @@
         font-weight: 600;
     }
     .flash{
-        animation: flash 1.4s linear infinite;
+        animation: flash 1.1s linear infinite;
     }
     @keyframes flash {
         0%{

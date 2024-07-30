@@ -4,7 +4,7 @@
 </script>
 
 <div class="main pt-20 pl-16 pr-16">
-    <div class="words-con w-full max-w-[900px]"><h1 class="words text-[55px] mb-10">SUPPORT YOUR DECISION- MAKING <span class="text-[#F05941]">WITH A SIMPLE SETUP</span></h1></div>
+    <div id="section3" class="words-con w-full max-w-[900px]"><h1 class="words text-[55px] mb-10">SUPPORT YOUR DECISION- MAKING <span class="text-[#F05941]">WITH A SIMPLE SETUP</span></h1></div>
     <div class="showing">
         <Cards/>
     </div>
