@@ -12,7 +12,7 @@
     <div class="flex flex-col text-center justify-center">
         <div class="flex text-center justify-center">
             <div class="w-full max-w-[950px]">
-                <p class="mt-[50px] text-[25px] mb-5">NexGen is an embedded integrations platform used by engineering and product teams to streamline and speed up all aspects of integration development—from user customization to polling infrastructure.
+                <p class="mt-[50px] text-[25px] mb-5">NexGen is an embedded integrations platform used by engineering and product teams <span class="take">to streamline and speed up all aspects of integration development—from user customization to polling infrastructure.</span>
                 </p>
             </div>
         </div>
@@ -53,7 +53,11 @@
     section{
         padding-bottom: 30px;
     }
-
+    @media(max-width:576px){
+        .take{
+            display: none;
+        }
+    }
     @media(max-width:462px) {
         .main{
             font-size: 30px;

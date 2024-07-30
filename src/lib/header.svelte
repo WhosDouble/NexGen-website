@@ -1,14 +1,39 @@
+<script>
+    import { House } from 'lucide-svelte'
+    import { Factory } from 'lucide-svelte';
+    import { Code } from 'lucide-svelte'
+    import { Blocks } from 'lucide-svelte'
+</script>
 <header class="z-[1000]">
     <nav>
-        <div class="w-[200px]"><a href="#section1"><img src="/images/logoV2.png" alt=""></a></div>
-        <div class="flex justify-center text-center">
+        <div class="logo w-[200px]"><a href="#section1"><img src="/images/logoV2.png" alt=""></a></div>
+        <div class="remove flex justify-center text-center">
             <h3>Platform</h3>
             <h3>Industries</h3>
             <h3>Developers</h3>
             <h3>Intergrations</h3>
             <h3>Resources</h3>
         </div>
-        <div class="flex justify-end w-full max-[200px]">
+        <div class="add flex justify-center items-center ">
+            <label for="">
+                <a href="#"><House/></a>
+                Home
+            </label>
+            <label for="">
+                <Factory/>
+                Industry
+            </label>
+            <label for="">
+                <Code/>
+                Develop
+            </label>
+            <label for="">
+                <Blocks/>
+                Integrate
+            </label>
+        </div>
+            
+        <div class="buttons flex justify-end w-full max-[200px]">
             <button class="bg-black rounded text-[#eee]">LOGIN</button>
             <button class="bg-black rounded text-[#eee]">BOOK</button>
         </div>
@@ -56,5 +81,33 @@
         display: flex;
         width: 100%;
         gap: 20px;
+    }
+    .add{
+        display: none;
+    }
+
+    @media(max-width:791px){
+        header{
+            bottom: 0;
+        }
+        nav{
+            height: 70px;
+        }
+        label{
+            font-weight: 500;
+            color: #F05941;
+        }
+        .buttons{
+            display: none;
+        }
+        .logo{
+            display: none;
+        }
+        .remove{
+            display: none;
+        }
+        .add{
+            display: flex;
+        }
     }
 </style>

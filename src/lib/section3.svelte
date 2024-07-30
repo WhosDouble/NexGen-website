@@ -11,9 +11,10 @@
     <div class="hidden">
         <Carousel/>
     </div>
-    <div class="flex items-center w-full max-w-[1600px] rounded-2xl h-28 bg-[#1b1b1b] mb-10">
+    <div class="flex items-center w-full max-w-[1600px] rounded-2xl h-28 bg-[#1b1b1b] mb-10 p-2">
         <div class="div1 w-full flex items-center justify-start p-5">
-            <h2 class="text-[rgba(255,255,255,0.6)] text-[25px]">Unlock Your <span class="text-white">Intergration Superpowers</span></h2>
+            <h2 class="remove text-[rgba(255,255,255,0.6)] text-[25px]">Unlock Your <span class="text-white">Intergration Superpowers</span></h2>
+            <h2 class="take text-[rgba(255,255,255,0.6)] text-[25px]">Start <span class="text-white">Free</span></h2>
         </div>
         <div class="div2 w-[200px] flex items-center justify-end p-10">
             <button class="bg-[#fff] w-[200px] rounded-xl p-2">Book a Demo</button>
@@ -34,12 +35,27 @@
     font-weight: 500;
  }
 
+ .take{
+    display: none;
+ }
+ 
+
  @media(max-width:1160px) {
     .showing{
         display: none;
     }
     .hidden{
         display: block;
+    }
+}
+@media(max-width:635px){
+    .take{
+        display: block;
+        font-size: 30px;
+        padding-left: 5px;
+    }
+    .remove{
+        display: none;
     }
 }
 @media(max-width:556px) {

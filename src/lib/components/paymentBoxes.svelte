@@ -52,7 +52,7 @@
     ]
 </script>
 
-<div class="main flex justify-around gap-6 p-[70px]">
+<div class="main flex justify-around gap-6 m-10 p-[70px]">
     {#each paymentBoxes as box}
         <div class="flex flex-col rounded-2xl p-10 bg-[#e3e3e3] w-full max-w-[500px]">
             <h3 class="text-[14px]">{box.title}</h3>
