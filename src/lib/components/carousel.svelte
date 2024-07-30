@@ -31,7 +31,7 @@
   <Carousel
       bind:this={carousel}
       autoplay
-      autoplayDuration={8000}
+      autoplayDuration={7000}
       autoplayProgressVisible>
       {#each cards as card}
         <div class="second w-full max-w-[384px] bg-[#1b1b1b] rounded-2xl p-10 mb-7 group">
@@ -42,4 +42,6 @@
       {/each}
   </Carousel>
 
-  <style></style>
+  <style>
+
+  </style>
